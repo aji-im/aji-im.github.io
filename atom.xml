@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://zifei.xyz</id>
+    <id>https://zifeixyz.github.io</id>
     <title>子非设计</title>
-    <updated>2020-04-23T23:04:26.121Z</updated>
+    <updated>2020-04-23T23:12:09.473Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://zifei.xyz"/>
-    <link rel="self" href="https://zifei.xyz/atom.xml"/>
+    <link rel="alternate" href="https://zifeixyz.github.io"/>
+    <link rel="self" href="https://zifeixyz.github.io/atom.xml"/>
     <subtitle>余生的个人设计网站</subtitle>
-    <logo>https://zifei.xyz/images/avatar.png</logo>
-    <icon>https://zifei.xyz/favicon.ico</icon>
+    <logo>https://zifeixyz.github.io/images/avatar.png</logo>
+    <icon>https://zifeixyz.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, 子非设计</rights>
     <entry>
         <title type="html"><![CDATA[第二篇文章]]></title>
-        <id>https://zifei.xyz/post/di-er-pian-wen-zhang/</id>
-        <link href="https://zifei.xyz/post/di-er-pian-wen-zhang/">
+        <id>https://zifeixyz.github.io/post/di-er-pian-wen-zhang/</id>
+        <link href="https://zifeixyz.github.io/post/di-er-pian-wen-zhang/">
         </link>
         <updated>2020-04-23T23:03:54.000Z</updated>
         <content type="html"><![CDATA[<p>哈哈</p>
@@ -21,8 +21,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[第一篇文章]]></title>
-        <id>https://zifei.xyz/post/hello-gridea/</id>
-        <link href="https://zifei.xyz/post/hello-gridea/">
+        <id>https://zifeixyz.github.io/post/hello-gridea/</id>
+        <link href="https://zifeixyz.github.io/post/hello-gridea/">
         </link>
         <updated>2018-12-11T16:00:00.000Z</updated>
         <summary type="html"><![CDATA[<p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
