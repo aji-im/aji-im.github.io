@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://zifeixyz.github.io</id>
     <title>子非设计</title>
-    <updated>2020-04-24T14:33:24.507Z</updated>
+    <updated>2020-04-24T14:34:57.056Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://zifeixyz.github.io"/>
     <link rel="self" href="https://zifeixyz.github.io/atom.xml"/>
@@ -10,24 +10,4 @@
     <logo>https://zifeixyz.github.io/images/avatar.png</logo>
     <icon>https://zifeixyz.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, 子非设计</rights>
-    <entry>
-        <title type="html"><![CDATA[个人介绍]]></title>
-        <id>https://zifeixyz.github.io/post/about/</id>
-        <link href="https://zifeixyz.github.io/post/about/">
-        </link>
-        <updated>2020-04-24T13:57:36.000Z</updated>
-        <content type="html"><![CDATA[<h2 id="我是谁">🏄‍👨‍💻我是谁？</h2>
-<blockquote>
-<p>5年电商设计经验，30家合作店铺，100个设计作品</p>
-</blockquote>
-<hr>
-<h2 id="我能为您做什么">💼我能为您做什么？</h2>
-<ul>
-<li>电商首页设计</li>
-<li>详情页设计</li>
-<li>海报设计</li>
-<li>营销推广图设计</li>
-</ul>
-]]></content>
-    </entry>
 </feed>
