@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://zifeixyz.github.io</id>
     <title>子非设计</title>
-    <updated>2020-05-02T10:01:24.076Z</updated>
+    <updated>2020-05-02T10:13:54.922Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://zifeixyz.github.io"/>
     <link rel="self" href="https://zifeixyz.github.io/atom.xml"/>
@@ -10,6 +10,19 @@
     <logo>https://zifeixyz.github.io/images/avatar.png</logo>
     <icon>https://zifeixyz.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, 子非设计</rights>
+    <entry>
+        <title type="html"><![CDATA[轮毂案例]]></title>
+        <id>https://zifeixyz.github.io/post/lun-gu-an-li/</id>
+        <link href="https://zifeixyz.github.io/post/lun-gu-an-li/">
+        </link>
+        <updated>2020-04-15T10:01:41.000Z</updated>
+        <summary type="html"><![CDATA[<p>马蹄万吨锻造轮毂</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>马蹄万吨锻造轮毂</p>
+<!-- more -->
+<figure data-type="image" tabindex="1"><img src="https://zifeixyz.github.io/post-images/1588414014896.jpg" alt="" loading="lazy"></figure>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[香水案例]]></title>
         <id>https://zifeixyz.github.io/post/xiang-shui-an-li/</id>
@@ -121,15 +134,6 @@
         <content type="html"><![CDATA[<p>天然作物，纯粮酿造。</p>
 <!-- more -->
 <figure data-type="image" tabindex="1"><img src="https://zifeixyz.github.io/post-images/1588177301663.jpg" alt="" loading="lazy"></figure>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[新媒体代运营案例]]></title>
-        <id>https://zifeixyz.github.io/post/xin-mei-ti-dai-yun-ying-an-li/</id>
-        <link href="https://zifeixyz.github.io/post/xin-mei-ti-dai-yun-ying-an-li/">
-        </link>
-        <updated>2019-07-14T16:17:50.000Z</updated>
-        <content type="html"><![CDATA[<figure data-type="image" tabindex="1"><img src="https://zifeixyz.github.io/post-images/1588177094499.jpg" alt="" loading="lazy"></figure>
 ]]></content>
     </entry>
 </feed>
