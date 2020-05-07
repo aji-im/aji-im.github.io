@@ -1728,7 +1728,7 @@ input[disabled] {
   text-align: center;
 }
 .surface-content {
-  max-width: 800px;
+  max-width: 900px;
   background-color: #fff;
   margin: 100px auto;
 }
@@ -2370,7 +2370,7 @@ hr {
   background: rgba(0, 0, 0, 0.1);
 }
 .banner-txt {
-  max-width: 800px;
+  max-width: 900px;
   margin: 0 auto;
   color: rgba(255, 255, 255, 0.85);
 }
