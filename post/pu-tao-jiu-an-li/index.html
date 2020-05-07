@@ -1,165 +1,123 @@
-
 <!DOCTYPE html>
-<html>
-  <head>
-    
-<meta charset="utf-8" >
+<html lang="zh-CN">
+	<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="initial-scale=1.0,user-scalable=no,minimal-ui" />
+    <title>葡萄酒案例 | 阿霁</title>
+<link rel='stylesheet' id='puma-css'  href='https://aji-im.github.io/styles/main.css' type='text/css' media='screen' />
+<link rel='stylesheet' id='puma-css'  href='https://at.alicdn.com/t/font_1306644_jwtuc2zzbrd.css' media='screen' />
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+<script type='text/javascript' src='https://aji-im.github.io/media/scripts/jquery.js'></script>
+<script type='text/javascript' src='https://aji-im.github.io/media/scripts/jquery-migrate.min.js'></script>
+        <script src="https://cdn.bootcss.com/highlight.js/9.15.10/highlight.min.js"></script>
+         <script >hljs.initHighlightingOnLoad();</script>
+         
+</head>
+<body class="single single-post postid-3788 single-format-standard">
+	<!--加入跟随滑动的顶部-->
+	<header id="masthead" class="site-header" role="banner">
+		<div class="site-branding">
+			<h1 class="site-title">
+				<a href="https://aji-im.github.io" title="阿霁">阿霁</a>
+			</h1>
+		</div>
 
-<title>葡萄酒案例 | 阿霁</title>
-<meta name="description" content="阿霁的个人设计作品网站">
-
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
-
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-<link rel="shortcut icon" href="https://aji-im.github.io/favicon.ico?v=1588862227665">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
-<link rel="stylesheet" href="https://aji-im.github.io/styles/main.css">
-
-
-
-<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
-<script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
-
-
-
-  </head>
-  <body>
-    <div id="app" class="main">
-      <div class="site-header-container">
-  <div class="site-header">
-    <div class="left">
-      <a href="https://aji-im.github.io">
-        <img class="avatar" src="https://aji-im.github.io/images/avatar.png?v=1588862227665" alt="" width="32px" height="32px">
-      </a>
-      <a href="https://aji-im.github.io">
-        <h1 class="site-title">阿霁</h1>
-      </a>
-    </div>
-    <div class="right">
-      <transition name="fade">
-        <i class="icon" :class="{ 'icon-close-outline': menuVisible, 'icon-menu-outline': !menuVisible }" @click="menuVisible = !menuVisible"></i>
-      </transition>
-    </div>
-  </div>
-</div>
-
-<transition name="fade">
-  <div class="menu-container" style="display: none;" v-show="menuVisible">
-    <div class="menu-list">
-      
-        
-          <a href="/" class="menu purple-link">
-            首页
-          </a>
-        
-      
-        
-          <a href="/archives" class="menu purple-link">
-            作品
-          </a>
-        
-      
-        
-          <a href="https://zifeixyz.github.io/tags/article" class="menu purple-link">
-            文章
-          </a>
-        
-      
-        
-          <a href="/tags" class="menu purple-link">
-            标签
-          </a>
-        
-      
-        
-          <a href="https://zifeixyz.github.io/post/about" class="menu purple-link">
-            关于
-          </a>
-        
-      
-    </div>
-  </div>
-</transition>
-
-
-      <div class="content-container">
-        <div class="post-detail">
-          
-            <div class="feature-container" style="background-image: url('https://aji-im.github.io/post-images/pu-tao-jiu-an-li.jpg')">
-            </div>
-          
-          <h2 class="post-title">葡萄酒案例</h2>
-          <div class="post-info post-detail-info">
-            <span><i class="icon-calendar-outline"></i> 2019-07-01</span>
-            
-              <span>
-                <i class="icon-pricetags-outline"></i>
-                
-                  <a href="https://aji-im.github.io/tag/detailpage/">
-                    详情页
+		<a class="primary-nav-trigger" href="javascript:void(0)">
+			<span class="menu-icon"></span>
+		</a>
+		
+	</header>
+		<div class="site-navigation-wrapper">
+		<nav id="site-navigation" class="main-navigation" role="navigation">
+			<ul class="primary-nav">
                     
-                  </a>
+				<li id="menu-item-30" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-30"><a title="首页" href="/">首页</a></li>
                 
-              </span>
-            
-          </div>
-          <div class="post-content">
-            <p>珍藏多时，为君启封。</p>
+				<li id="menu-item-30" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-30"><a title="作品" href="/archives">作品</a></li>
+                
+				<li id="menu-item-30" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-30"><a title="文章" href="https://zifeixyz.github.io/tags/article">文章</a></li>
+                
+				<li id="menu-item-30" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-30"><a title="标签" href="/tags">标签</a></li>
+                
+				<li id="menu-item-30" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-30"><a title="关于" href="https://zifeixyz.github.io/post/about">关于</a></li>
+                
+	
+			</ul>
+		</nav>			
+	</div>
+	<!--跟随滑动的顶部结束-->
+	<div class="surface-content">    <main class="main-content">
+        <section class="section-body">
+                            <header class="section-header u-textAlignCenter">
+                    <h2 class="grap--h2">葡萄酒案例</h2>
+                    <div class="block-postMetaWrap">
+                        <time>2019-07-01</time>
+                    </div>
+                </header>
+                <div class="grap">
+					  <p class="with-img"><img width="1139" height="759" src="https://aji-im.github.io/post-images/pu-tao-jiu-an-li.jpg" class="attachment-full size-full wp-post-image" alt="葡萄酒案例" /></p>
+					<p>珍藏多时，为君启封。</p>
 <!-- more -->
 <figure data-type="image" tabindex="1"><img src="https://aji-im.github.io/post-images/1588175974880.jpg" alt="" loading="lazy"></figure>
 
-          </div>
+                </div>
+
+                <div class="post--keywords" itemprop="keywords">
+					 <a href="https://aji-im.github.io/tag/detailpage/" class="post--keyword" data-title="详情页" data-type="post_tag" data-term-id="39">详情页</a>           </div>
+
+
+
+                      </section>
+    </main>
+</div>
+	<script src="//instant.page/3.0.0" type="module" defer integrity="sha384-OeDn4XE77tdHo8pGtE1apMPmAipjoxUQ++eeJa6EtJCfHlvijigWiJpD7VDPWXV1"></script>
+
+	<footer class="site-footer u-textAlignCenter">
+    	<div class="footer-branding">
+            <a href="https://aji-im.github.io" title="阿霁">阿霁</a>
+									<p class="site-description">想活一万年，瞧尽人间。</p>
+			         </div>
+		 <hr />
+		 <div class="social-links">
+		                       
+                            	
+			<span class="social-link"><a href="https://zifei.xyz/atom.xml" target="_blank"><i class="iconfont icon-rss"></i></a></span>	
+			                         
+                           
+                            
+                           
+                            	
+			<span class="social-link"><a href="https://github.com/zifeixyz/" target="_blank"><i class="iconfont icon-github"></i></a></span>	
+			                         
+                           
+                            
+                           
+                            
+                           
+                            
+                           
+                            
+                           
+                            
+                           
+                            
+                           
+                            	
+			<span class="social-link"><a href="http://wpa.qq.com/msgrd?v=3&amp;uin=844498355&amp;site=qq&amp;menu=yes" target="_blank"><i class="iconfont icon-qq"></i></a></span>	
+			                         
+                           
+                            
+                           
+                            
+                           
+				</div>
+        <div class="footer-copy">
+                Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a>
         </div>
 
-        
-          <div class="next-post">
-            <a class="purple-link" href="https://aji-im.github.io/post/feng-li-an-li/">
-              <h3 class="post-title">
-                下一篇：凤梨案例
-              </h3>
-            </a>
-          </div>
-          
-      </div>
+    </footer>
+	<div class="back-to-top u-hide" onclick="backToTop();"><i class="iconfont icon-xiangshang"></i></div>
 
-      
-
-      <div class="site-footer">
-  <div class="slogan">阿霁的个人设计作品网站</div>
-  <div class="social-container">
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-  </div>
-  Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | <a class="rss" href="https://aji-im.github.io/atom.xml" target="_blank">RSS</a>
-</div>
-
-
-    </div>
-    <script type="application/javascript">
-
-hljs.initHighlightingOnLoad()
-
-var app = new Vue({
-  el: '#app',
-  data: {
-    menuVisible: false,
-  },
-})
-
-</script>
-
-
-
-
-  </body>
+<script type='text/javascript' src='https://aji-im.github.io/media/scripts/main.js'></script>
+</body>
 </html>
