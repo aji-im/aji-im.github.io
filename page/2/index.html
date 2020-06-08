@@ -1,371 +1,339 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" >
 
-<!DOCTYPE HTML>
-<!--
-	Multiverse by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html lang="zh-cn">
-<head>
-    <title>阿霁</title>
-<meta name="keywords" content="" />
-<meta name="description" content="阿霁的个人设计作品网站" />
-<meta charset="utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-<base href="https://cdn.jsdelivr.net/gh/aji-im/aji-im.github.io/">
+<title>阿霁</title>
 
-<!-- 3D字体 -->
-<link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
-
-<link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh///favicon.ico" />
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<link rel="shortcut icon" href="https://aji-im.github.io/favicon.ico?v=1591628379317">
+<link rel="stylesheet" href="https://aji-im.github.io/styles/main.css">
 
 
 
-<link rel="stylesheet" href="media/css/tags.css" />
-<link rel="stylesheet" href="media/css/main-multiverse.css" />
-<link rel="stylesheet" href="media/css/modify-multiverse.css" />
-<noscript><link rel="stylesheet" href="media/css/noscript-multiverse.css" /></noscript>
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 
 
 
-
-</head>
-<body class="is-preload">
-
-<!-- 外封 -->
-<div id="wrapper">
-
-    <!-- 页眉 -->
-    <header id="header">
+    <meta name="description" content="阿霁的个人设计作品网站">
     
-	
-	<h1><strong>
-	<a href="">
-	<div class="wrapper">
-	  <div class="header-wrap">
-	    阿霁
-	  </div>
-	</div>
-	</a>
-	</strong></h1>
-	
-    <nav>
-        <ul>
-           
-           <li><a href="真实链接(建议在最后一次预览后进入output里面修改所有有分页的index.html)" class="icon solid fa-angle-left">prev</a></li>
-           
-           
-           <li><a href="真实链接/page/2" class="icon solid fa-angle-right">next</a></li>
-           
-           <li><a href="#footer" class="icon solid fa-info-circle">About</a></li>
-        </ul>
-    </nav>
-    
-</header>
+  </head>
+  <body>
+    <div id="app" class="main">
 
-    <!-- 主要内容 -->
-    
-<main id="main">
-    
-    <article class="thumb">
+      <div class="sidebar" :class="{ 'full-height': menuVisible }">
+  <div class="top-container" data-aos="fade-right">
+    <div class="top-header-container">
+      <a class="site-title-container" href="https://aji-im.github.io">
+        <img src="https://aji-im.github.io/images/avatar.png?v=1591628379317" class="site-logo">
+        <h1 class="site-title">阿霁</h1>
+      </a>
+      <div class="menu-btn" @click="menuVisible = !menuVisible">
+        <div class="line"></div>
+      </div>
+    </div>
+    <div>
+      
         
-            <a href="https://cdn.jsdelivr.net/gh/aji-im/aji-im.github.io/post-images/xin-mei-ti-dai-yun-ying-an-li.jpg" class="image"><img src="https://cdn.jsdelivr.net/gh/aji-im/aji-im.github.io/post-images/xin-mei-ti-dai-yun-ying-an-li.jpg" /></a>
+          <a href="/" class="site-nav">
+            首页
+          </a>
         
-		
-		<h2><font size="3rpx">新媒体代运营案例</font>
-		    <br>
-		    <font size="2rpx">2019-07-15</font>
-		</h2>
-		
-		<figure data-type="image" tabindex="1"><img src="https://cdn.jsdelivr.net/gh/aji-im/aji-im.github.io/post-images/1588177094499.jpg" alt="" loading="lazy"></figure>
-
-    </article>
-    
-    <article class="thumb">
+      
         
-            <a href="https://cdn.jsdelivr.net/gh/aji-im/aji-im.github.io/post-images/can-he-an-li.jpg" class="image"><img src="https://cdn.jsdelivr.net/gh/aji-im/aji-im.github.io/post-images/can-he-an-li.jpg" /></a>
+          <a href="/archives" class="site-nav">
+            作品
+          </a>
         
-		
-		<h2><font size="3rpx">餐盒案例</font>
-		    <br>
-		    <font size="2rpx">2019-07-10</font>
-		</h2>
-		
-		<p>环保卫生，自然健康。</p>
-<!-- more -->
-<figure data-type="image" tabindex="1"><img src="https://cdn.jsdelivr.net/gh/aji-im/aji-im.github.io/post-images/1588177435105.jpg" alt="" loading="lazy"></figure>
-
-    </article>
-    
-    <article class="thumb">
+      
         
-            <a href="https://cdn.jsdelivr.net/gh/aji-im/aji-im.github.io/post-images/chuang-lian-gui-dao-an-li.jpg" class="image"><img src="https://cdn.jsdelivr.net/gh/aji-im/aji-im.github.io/post-images/chuang-lian-gui-dao-an-li.jpg" /></a>
+          <a href="/tags" class="site-nav">
+            标签
+          </a>
         
-		
-		<h2><font size="3rpx">窗帘轨道案例</font>
-		    <br>
-		    <font size="2rpx">2019-07-10</font>
-		</h2>
-		
-		<p>给您心动的生活体验</p>
-<!-- more -->
-<figure data-type="image" tabindex="1"><img src="https://cdn.jsdelivr.net/gh/aji-im/aji-im.github.io/post-images/1588176844917.jpg" alt="" loading="lazy"></figure>
-
-    </article>
-    
-    <article class="thumb">
+      
         
-            <a href="https://cdn.jsdelivr.net/gh/aji-im/aji-im.github.io/post-images/shi-zhi-jin-an-li.jpg" class="image"><img src="https://cdn.jsdelivr.net/gh/aji-im/aji-im.github.io/post-images/shi-zhi-jin-an-li.jpg" /></a>
+          <a href="https://aji-im.github.io/post/about" class="site-nav">
+            关于
+          </a>
         
-		
-		<h2><font size="3rpx">湿纸巾案例</font>
-		    <br>
-		    <font size="2rpx">2019-07-07</font>
-		</h2>
-		
-		<p>婴儿护肤保湿纸巾</p>
-<!-- more -->
-<figure data-type="image" tabindex="1"><img src="https://cdn.jsdelivr.net/gh/aji-im/aji-im.github.io/post-images/1588177001409.jpg" alt="" loading="lazy"></figure>
-
-    </article>
-    
-    <article class="thumb">
+      
+    </div>
+  </div>
+  <div class="bottom-container" data-aos="flip-up" data-aos-offset="0">
+    <div class="social-container">
+      
         
-            <a href="https://cdn.jsdelivr.net/gh/aji-im/aji-im.github.io/post-images/dian-shang-dai-yun-ying-an-li.jpg" class="image"><img src="https://cdn.jsdelivr.net/gh/aji-im/aji-im.github.io/post-images/dian-shang-dai-yun-ying-an-li.jpg" /></a>
+          <a class="social-link" href="https://github.com/zifeixyz/" target="_blank">
+            <i class="fab fa-github"></i>
+          </a>
         
-		
-		<h2><font size="3rpx">电商代运营案例</font>
-		    <br>
-		    <font size="2rpx">2019-07-07</font>
-		</h2>
-		
-		<figure data-type="image" tabindex="1"><img src="https://cdn.jsdelivr.net/gh/aji-im/aji-im.github.io/post-images/1588176641439.jpg" alt="" loading="lazy"></figure>
-
-    </article>
-    
-    <article class="thumb">
+      
         
-            <a href="https://cdn.jsdelivr.net/gh/aji-im/aji-im.github.io/post-images/yi-yong-chuang-tou-ju-an-li.jpg" class="image"><img src="https://cdn.jsdelivr.net/gh/aji-im/aji-im.github.io/post-images/yi-yong-chuang-tou-ju-an-li.jpg" /></a>
+      
         
-		
-		<h2><font size="3rpx">医用床头柜案例</font>
-		    <br>
-		    <font size="2rpx">2019-07-05</font>
-		</h2>
-		
-		<p>环保材料，无毒无味。</p>
-<!-- more -->
-<figure data-type="image" tabindex="1"><img src="https://cdn.jsdelivr.net/gh/aji-im/aji-im.github.io/post-images/1588176211102.jpg" alt="" loading="lazy"></figure>
-
-    </article>
-    
-    <article class="thumb">
+      
         
-            <a href="https://cdn.jsdelivr.net/gh/aji-im/aji-im.github.io/post-images/zhen-zhi-qun-an-li.jpg" class="image"><img src="https://cdn.jsdelivr.net/gh/aji-im/aji-im.github.io/post-images/zhen-zhi-qun-an-li.jpg" /></a>
+      
         
-		
-		<h2><font size="3rpx">针织裙案例</font>
-		    <br>
-		    <font size="2rpx">2019-07-01</font>
-		</h2>
-		
-		<p>可爱波点，绵柔舒适。</p>
-<!-- more -->
-<figure data-type="image" tabindex="1"><img src="https://cdn.jsdelivr.net/gh/aji-im/aji-im.github.io/post-images/1588176097968.jpg" alt="" loading="lazy"></figure>
-
-    </article>
-    
-    <article class="thumb">
-        
-            <a href="https://cdn.jsdelivr.net/gh/aji-im/aji-im.github.io/post-images/pu-tao-jiu-an-li.jpg" class="image"><img src="https://cdn.jsdelivr.net/gh/aji-im/aji-im.github.io/post-images/pu-tao-jiu-an-li.jpg" /></a>
-        
-		
-		<h2><font size="3rpx">葡萄酒案例</font>
-		    <br>
-		    <font size="2rpx">2019-07-01</font>
-		</h2>
-		
-		<p>珍藏多时，为君启封。</p>
-<!-- more -->
-<figure data-type="image" tabindex="1"><img src="https://cdn.jsdelivr.net/gh/aji-im/aji-im.github.io/post-images/1588175974880.jpg" alt="" loading="lazy"></figure>
-
-    </article>
-    
-    <article class="thumb">
-        
-            <a href="https://cdn.jsdelivr.net/gh/aji-im/aji-im.github.io/post-images/feng-li-an-li.jpg" class="image"><img src="https://cdn.jsdelivr.net/gh/aji-im/aji-im.github.io/post-images/feng-li-an-li.jpg" /></a>
-        
-		
-		<h2><font size="3rpx">凤梨案例</font>
-		    <br>
-		    <font size="2rpx">2019-06-30</font>
-		</h2>
-		
-		<p>酸甜可口，美味多汁。</p>
-<!-- more -->
-<figure data-type="image" tabindex="1"><img src="https://cdn.jsdelivr.net/gh/aji-im/aji-im.github.io/post-images/1588078830112.jpg" alt="" loading="lazy"></figure>
-
-    </article>
-    
-    <article class="thumb">
-        
-            <a href="https://cdn.jsdelivr.net/gh/aji-im/aji-im.github.io/post-images/ma-ti-lun-gu-an-li.jpg" class="image"><img src="https://cdn.jsdelivr.net/gh/aji-im/aji-im.github.io/post-images/ma-ti-lun-gu-an-li.jpg" /></a>
-        
-		
-		<h2><font size="3rpx">马蹄轮毂案例</font>
-		    <br>
-		    <font size="2rpx">2019-06-06</font>
-		</h2>
-		
-		<p>马蹄轮毂，万吨锻造。</p>
-<!-- more -->
-<figure data-type="image" tabindex="1"><img src="https://cdn.jsdelivr.net/gh/aji-im/aji-im.github.io/post-images/1588175692628.jpg" alt="" loading="lazy"></figure>
-
-    </article>
-    
-</main>
-
-
-    <!-- 页脚 -->
-    
-<footer id="footer" class="panel"
-	>
-	
-	<div class="inner split">
-		<div>
-			<section>
-				
-				<h2>
-					<div class="wrapper">
-						<div class="header-wrap">
-							About
-						</div>
-					</div>
-				</h2>
-				
-				<p>
-					阿霁的个人设计作品网站
-				</p>
-			</section>
-
-			<section>
-				
-				<h2>
-					<div class="wrapper">
-						<div class="header-wrap">
-							FOLLOW ME ON ...
-						</div>
-					</div>
-				</h2>
-				
-
-
-				<ul class="icons">
-					
-					
-					
-					
-					
-					
-					
-					
-					
-					
-					
-					
-					
-					
-					
-					
-					
-				</ul>
-			</section>
-			<p class="copyright">
-				Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a>
-				<br>
-				theme by <a href="https://github.com/LifeAlsoIsGG/gridea-theme-multiverse-lens">Multiverse&Lens</a>
-				<br>
-				source from <a href="https://html5up.net/">HTML5 UP</a>
-			</p>
-		</div>
-
-
-		<div>
-			<section>
-				<div style="width:100%;">
-					
-					<h2>
-						<div class="wrapper">
-							<div class="header-wrap">
-								tags cloud
-							</div>
-						</div>
-					</h2>
-					
-					
-					
-					
-					
-					<section id="tag_cloud-2" class="widget_tag_cloud">
-						<div class="tagcloud">
-							
-							<a href="/tag/detailpage" class="ctag ctag-0 ctag-detailpage" aria-label="">
-								详情页</a>
-							
-							<a href="/tag/homepage" class="ctag ctag-1 ctag-homepage" aria-label="">
-								首页</a>
-							
-						</div>
-					</section>
-					
-					
-					
-					
-					
-					<section id="tag_cloud-2" class="widget_tag_cloud">
-						<div class="tagcloud">
-							
-							<a href="/tag/detailpage" class="ctag ctag-0 ctag-detailpage" aria-label="">
-								详情页</a>
-							
-							<a href="/tag/homepage" class="ctag ctag-1 ctag-homepage" aria-label="">
-								首页</a>
-							
-						</div>
-					</section>
-					
-					
-					
-
-				</div>
-			</section>
-		</div>
-
-
-	</div>
-	
-</footer>
-
-
+      
+    </div>
+    <div class="site-description">
+      阿霁的个人设计作品网站
+    </div>
+    <div class="site-footer">
+      Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | <a class="rss" href="https://aji-im.github.io/atom.xml" target="_blank">RSS</a>
+    </div>
+  </div>
 </div>
 
 
-<!-- 脚本 -->
+      <div class="main-container">
+        <div class="content-container" data-aos="fade-up">
+          
+            <article class="post-item">
+              <div class="left">
+                <a href="https://aji-im.github.io/post/xin-mei-ti-dai-yun-ying-an-li/">
+                  <h2 class="post-title">新媒体代运营案例</h2>
+                </a>
+                <div class="post-date">
+                  2019-07-15
+                </div>
+                <div class="post-abstract">
+                  
+                </div>
+              </div>
+              
+                <a class="right" href="https://aji-im.github.io/post/xin-mei-ti-dai-yun-ying-an-li/">
+                  <div class="feature-container" style="background-image: url('https://aji-im.github.io/post-images/xin-mei-ti-dai-yun-ying-an-li.jpg')">
+                  </div>
+                </a>
+              
+            </article>
+          
+            <article class="post-item">
+              <div class="left">
+                <a href="https://aji-im.github.io/post/can-he-an-li/">
+                  <h2 class="post-title">餐盒案例</h2>
+                </a>
+                <div class="post-date">
+                  2019-07-10
+                </div>
+                <div class="post-abstract">
+                  <p>环保卫生，自然健康。</p>
+
+                </div>
+              </div>
+              
+                <a class="right" href="https://aji-im.github.io/post/can-he-an-li/">
+                  <div class="feature-container" style="background-image: url('https://aji-im.github.io/post-images/can-he-an-li.jpg')">
+                  </div>
+                </a>
+              
+            </article>
+          
+            <article class="post-item">
+              <div class="left">
+                <a href="https://aji-im.github.io/post/chuang-lian-gui-dao-an-li/">
+                  <h2 class="post-title">窗帘轨道案例</h2>
+                </a>
+                <div class="post-date">
+                  2019-07-10
+                </div>
+                <div class="post-abstract">
+                  <p>给您心动的生活体验</p>
+
+                </div>
+              </div>
+              
+                <a class="right" href="https://aji-im.github.io/post/chuang-lian-gui-dao-an-li/">
+                  <div class="feature-container" style="background-image: url('https://aji-im.github.io/post-images/chuang-lian-gui-dao-an-li.jpg')">
+                  </div>
+                </a>
+              
+            </article>
+          
+            <article class="post-item">
+              <div class="left">
+                <a href="https://aji-im.github.io/post/shi-zhi-jin-an-li/">
+                  <h2 class="post-title">湿纸巾案例</h2>
+                </a>
+                <div class="post-date">
+                  2019-07-07
+                </div>
+                <div class="post-abstract">
+                  <p>婴儿护肤保湿纸巾</p>
+
+                </div>
+              </div>
+              
+                <a class="right" href="https://aji-im.github.io/post/shi-zhi-jin-an-li/">
+                  <div class="feature-container" style="background-image: url('https://aji-im.github.io/post-images/shi-zhi-jin-an-li.jpg')">
+                  </div>
+                </a>
+              
+            </article>
+          
+            <article class="post-item">
+              <div class="left">
+                <a href="https://aji-im.github.io/post/dian-shang-dai-yun-ying-an-li/">
+                  <h2 class="post-title">电商代运营案例</h2>
+                </a>
+                <div class="post-date">
+                  2019-07-07
+                </div>
+                <div class="post-abstract">
+                  
+                </div>
+              </div>
+              
+                <a class="right" href="https://aji-im.github.io/post/dian-shang-dai-yun-ying-an-li/">
+                  <div class="feature-container" style="background-image: url('https://aji-im.github.io/post-images/dian-shang-dai-yun-ying-an-li.jpg')">
+                  </div>
+                </a>
+              
+            </article>
+          
+            <article class="post-item">
+              <div class="left">
+                <a href="https://aji-im.github.io/post/yi-yong-chuang-tou-ju-an-li/">
+                  <h2 class="post-title">医用床头柜案例</h2>
+                </a>
+                <div class="post-date">
+                  2019-07-05
+                </div>
+                <div class="post-abstract">
+                  <p>环保材料，无毒无味。</p>
+
+                </div>
+              </div>
+              
+                <a class="right" href="https://aji-im.github.io/post/yi-yong-chuang-tou-ju-an-li/">
+                  <div class="feature-container" style="background-image: url('https://aji-im.github.io/post-images/yi-yong-chuang-tou-ju-an-li.jpg')">
+                  </div>
+                </a>
+              
+            </article>
+          
+            <article class="post-item">
+              <div class="left">
+                <a href="https://aji-im.github.io/post/zhen-zhi-qun-an-li/">
+                  <h2 class="post-title">针织裙案例</h2>
+                </a>
+                <div class="post-date">
+                  2019-07-01
+                </div>
+                <div class="post-abstract">
+                  <p>可爱波点，绵柔舒适。</p>
+
+                </div>
+              </div>
+              
+                <a class="right" href="https://aji-im.github.io/post/zhen-zhi-qun-an-li/">
+                  <div class="feature-container" style="background-image: url('https://aji-im.github.io/post-images/zhen-zhi-qun-an-li.jpg')">
+                  </div>
+                </a>
+              
+            </article>
+          
+            <article class="post-item">
+              <div class="left">
+                <a href="https://aji-im.github.io/post/pu-tao-jiu-an-li/">
+                  <h2 class="post-title">葡萄酒案例</h2>
+                </a>
+                <div class="post-date">
+                  2019-07-01
+                </div>
+                <div class="post-abstract">
+                  <p>珍藏多时，为君启封。</p>
+
+                </div>
+              </div>
+              
+                <a class="right" href="https://aji-im.github.io/post/pu-tao-jiu-an-li/">
+                  <div class="feature-container" style="background-image: url('https://aji-im.github.io/post-images/pu-tao-jiu-an-li.jpg')">
+                  </div>
+                </a>
+              
+            </article>
+          
+            <article class="post-item">
+              <div class="left">
+                <a href="https://aji-im.github.io/post/feng-li-an-li/">
+                  <h2 class="post-title">凤梨案例</h2>
+                </a>
+                <div class="post-date">
+                  2019-06-30
+                </div>
+                <div class="post-abstract">
+                  <p>酸甜可口，美味多汁。</p>
+
+                </div>
+              </div>
+              
+                <a class="right" href="https://aji-im.github.io/post/feng-li-an-li/">
+                  <div class="feature-container" style="background-image: url('https://aji-im.github.io/post-images/feng-li-an-li.jpg')">
+                  </div>
+                </a>
+              
+            </article>
+          
+            <article class="post-item">
+              <div class="left">
+                <a href="https://aji-im.github.io/post/ma-ti-lun-gu-an-li/">
+                  <h2 class="post-title">马蹄轮毂案例</h2>
+                </a>
+                <div class="post-date">
+                  2019-06-06
+                </div>
+                <div class="post-abstract">
+                  <p>马蹄轮毂，万吨锻造。</p>
+
+                </div>
+              </div>
+              
+                <a class="right" href="https://aji-im.github.io/post/ma-ti-lun-gu-an-li/">
+                  <div class="feature-container" style="background-image: url('https://aji-im.github.io/post-images/ma-ti-lun-gu-an-li.jpg')">
+                  </div>
+                </a>
+              
+            </article>
+          
+
+          <div class="pagination-container">
+  
+    <a href="https://aji-im.github.io/" class="prev"><i class="icon-arrow-ios-back-outline"></i> 上一页</a>
+  
+  
+    <a href="https://aji-im.github.io/page/3/" class="next">下一页 <i class="icon-arrow-ios-forward-outline"></i></a>
+  
+</div>
+
+        </div>
+      </div>
+    </div>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script type="application/javascript">
+
+AOS.init();
+
+var app = new Vue({
+  el: '#app',
+  data: {
+    menuVisible: false,
+  },
+})
+
+</script>
 
 
 
-<script src="media/scripts/jquery.min.js"></script>
-<script src="media/scripts/jquery.poptrox.min.js"></script>
-<script src="media/scripts/browser.min.js"></script>
-<script src="media/scripts/breakpoints.min.js"></script>
-<script src="media/scripts/util-multiverse.js"></script>
-<script src="media/scripts/main-multiverse.js"></script>
 
 
 
-
-
-
-</body>
+  </body>
 </html>
